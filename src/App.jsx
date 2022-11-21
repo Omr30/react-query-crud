@@ -1,6 +1,8 @@
+import Products from "./components/Products"
+
 const App = () => {
   return (
-    <div>hello World</div>
+    <Products />
   )
 }
 
