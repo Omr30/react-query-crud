@@ -29,11 +29,18 @@
       "id": 4
     },
     {
-      "name": "microphone",
-      "description": "hyperx",
-      "price": "140",
+      "name": "Microphone",
+      "description": "marca HyperX",
+      "price": "1200",
       "inStock": true,
       "id": 5
+    },
+    {
+      "name": "Parlante",
+      "description": "marca CR-X",
+      "price": "1800",
+      "inStock": true,
+      "id": 6
     }
   ]
 }
