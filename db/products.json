@@ -1,26 +1,39 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "laptop",
-            "description": "laptop gaming",
-            "price": 1000,
-            "inStock": true
-        },
-        {
-            "id": 2,
-            "name": "mouse",
-            "description": "mouse gaming",
-            "price": 100,
-            "inStock": true
-        },
-        {
-            "id": 3,
-            "name": "keyboard",
-            "description": "keyboard gaming",
-            "price": 300,
-            "inStock": true
-        }
-
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "laptop",
+      "description": "laptop gaming",
+      "price": 1000,
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "mouse",
+      "description": "mouse gaming",
+      "price": 100,
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "name": "keyboard",
+      "description": "keyboard gaming",
+      "price": 300,
+      "inStock": true
+    },
+    {
+      "name": "server",
+      "description": "servidor web",
+      "price": "1000",
+      "inStock": true,
+      "id": 4
+    },
+    {
+      "name": "microphone",
+      "description": "hyperx",
+      "price": "140",
+      "inStock": true,
+      "id": 5
+    }
+  ]
 }
