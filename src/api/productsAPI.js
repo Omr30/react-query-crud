@@ -10,9 +10,13 @@ export const getProducts = async() => {
 }
 
 export const createProduct = async(product) => {
-    const res = await productsApi.post('/products', product)
+    await productsApi.post('/products', product)
 }
 
 export const deleteProduct = async(id) => {
-    const res = await productsApi.delete(`/products/${id}`)
+    await productsApi.delete(`/products/${id}`)
+}
+
+export const updateProduct = async(product) => {
+    await productsApi.put(`products/${product.id}`, product)
 }
